@@ -59,5 +59,5 @@ const login = async (req, res) => {
     res.status(500).json({ message: 'Internal server error' });
   }
 };
-
+// main module
 module.exports = { register, login };
